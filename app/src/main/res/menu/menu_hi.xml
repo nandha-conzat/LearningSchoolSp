@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_plate"
+        android:title="Plate" />
+    <item
+        android:id="@+id/menu_spoon"
+        android:title="Spoon" />
+    <item
+        android:id="@+id/menu_soap"
+        android:title="Soap" />
+    <item
+        android:id="@+id/menu_shirt"
+        android:title="Shirt" />
+    <item
+        android:id="@+id/menu_knife"
+        android:title="Knife" />
+    <item
+        android:id="@+id/menu_bottle"
+        android:title="Bottle" />
+    <item
+        android:id="@+id/menu_shampoo"
+        android:title="Shampoo" />
+    <item
+        android:id="@+id/menu_tray"
+        android:title="Tray" />
+    <item
+        android:id="@+id/menu_lock"
+        android:title="Lock" />
+</menu>

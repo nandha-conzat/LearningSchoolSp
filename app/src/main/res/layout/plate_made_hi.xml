@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light">
+
+    <TextView
+        android:id="@+id/txt_dispaly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Plate can be made from"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/darg_plate_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/drag_plate"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/paper_plate" />
+
+        <TextView
+            android:id="@+id/txt_plate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Paper Plate"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/darg_plate_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/drag_plate1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/plastic_plate" />
+
+        <TextView
+            android:id="@+id/txt_plate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Plastic Plate"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/darg_plate_layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/drag_plate2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/silver_plate" />
+
+        <TextView
+            android:id="@+id/txt_plate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Steel Plate"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pa1_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imageback_pa1_v16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imagehome_pa1_v16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/imageNext_pa1_v16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

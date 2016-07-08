@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/darg_item1_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/drag_item1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/s154_1_hi" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/darg_item2_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/drag_item2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/s154_2_hi" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/darg_item3_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/drag_item3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/s154_3_hi" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/darg_item4_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/drag_item4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/s154_4_hi" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/pa1_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imageback_pa1_v17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imagehome_pa1_v17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/imageNext_pa1_v17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+</LinearLayout>

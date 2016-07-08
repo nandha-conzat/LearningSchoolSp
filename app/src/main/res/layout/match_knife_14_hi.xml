@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/choice_1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/knife_s87_1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="A "
+            android:textColor="@android:color/transparent"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/choice_2"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/knife_s87_2"
+            android:text="B "
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/transparent"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/choice_3"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/knife_s87_3"
+            android:text="C "
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/transparent"
+            android:textSize="20dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shirt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/knife_s87_4"
+            android:text="B"
+            android:textColor="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/plate"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/knife_s87_5"
+            android:text="D"
+            android:textColor="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/knife"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/knife_s87_6"
+            android:text="A"
+            android:textColor="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/soap"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/knife_s87_7"
+            android:text="C"
+            android:textColor="@android:color/transparent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/pa1_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageback_pa3_v15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imagehome_pa3_v15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/imageNext_pa3_v15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+</LinearLayout>

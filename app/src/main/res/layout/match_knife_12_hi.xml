@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/light"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_dispaly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/sniff_layout12"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/sniff_image12"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/knife_s79_1" />
+
+        <TextView
+            android:id="@+id/txt_sniff_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Sniff"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/kiwi_layout12"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/kiwi_image12"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/knife_s79_1" />
+
+        <TextView
+            android:id="@+id/txt_kiwi_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Kiwi"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fix_know_layout12"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sniff_layout12"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/fix_know_image12"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/knife_s79_1" />
+
+        <TextView
+            android:id="@+id/txt_know_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="know"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/knife_layout12_fixed"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/kiwi_layout12"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/knife_image12_fixed"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/knife_s79_1" />
+
+        <TextView
+            android:id="@+id/txt_knife_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Knife"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hike_layout12_fix"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/hike_image12_fix"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/knife_s79_1" />
+
+        <TextView
+            android:id="@+id/txt_hike_frame_fix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Hike"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pa4_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imageback_pa4_v12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imagehome_pa4_v12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/imageNext_pa4_v12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+</RelativeLayout>
